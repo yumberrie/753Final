@@ -122,9 +122,10 @@ footer p {
 
 /* Resume page */
 .text-list {
-
+  font-family: "Verdana", sans-serif;
 }
 
 h3 {
-
+  font-family: "Verdana", sans-serif;
+  font-variant: small-caps;
 }
