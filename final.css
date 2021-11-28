@@ -125,3 +125,7 @@ footer p {
 .text-list {
   float: left;
 }
+
+h3 {
+  clear: both;
+}
