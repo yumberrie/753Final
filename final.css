@@ -122,11 +122,15 @@ footer p {
 
 /* Resume page */
 .text-list {
+
+  display: block;
+  margin-right: 2em;
+}
+
+.text-list-item {
   font-family: "Verdana", sans-serif;
   font-size: 14px;
   color: black;
-  display: block;
-  margin-right: 2em;
 }
 
 h3 {
