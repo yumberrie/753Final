@@ -139,14 +139,17 @@ footer p {
 /* Pages */
 .text-list {
   display: block;
-  margin-right: 2em;
+  margin-left: 1em;
 }
 
 .text-list-item {
   font-family: "Verdana", sans-serif;
   font-size: 14px;
   color: black;
-  line-height: 5px;
+}
+
+.spaced-list {
+  line-height: 1.9em;
 }
 
 .text-list-item a {
