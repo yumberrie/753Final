@@ -159,6 +159,7 @@ footer p {
 
 .text-list-item a {
   color: #938048;
+  text-decoration: none;
 }
 
 .text-list-item a:hover {
