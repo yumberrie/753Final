@@ -148,6 +148,10 @@ footer p {
   color: black;
 }
 
+.text-list-item a {
+  color: #938048;
+}
+
 .text-list-item a:hover {
   color: #504a23;
 }
