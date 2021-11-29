@@ -77,12 +77,6 @@ header nav ul li a:hover {
   color: #4E4923;
 }
 
-/* Body stuffs */
-.main-container {
-  margin: 8%;
-  margin-bottom: 14%;
-}
-
 h2 {
   text-align: center;
   font-family: "Special Elite", sans-serif;
@@ -95,6 +89,20 @@ h2.sub {
   font-size: 1.4em;
   margin-top: -10px;
   margin-bottom: 30px;
+}
+
+h3 {
+  font-family: "Verdana", sans-serif;
+  font-variant: small-caps;
+  color: #938048;
+  margin-top: 2em;
+  margin-bottom: -.3em;
+}
+
+/* Body stuffs */
+.main-container {
+  margin: 8%;
+  margin-bottom: 14%;
 }
 
 p {
@@ -131,18 +139,7 @@ figcaption {
   text-align: center;
 }
 
-/* Footer stuffs */
-footer {
-  background-color: #4E4923;
-  padding: 7%;
-  clear: both;
-}
-
-footer p {
-  color: #e7e7e5;
-}
-
-/* Pages */
+/* Lists */
 .text-list {
   display: block;
   margin-left: 1em;
@@ -173,10 +170,22 @@ footer p {
   color: #504a23;
 }
 
-h3 {
-  font-family: "Verdana", sans-serif;
-  font-variant: small-caps;
+p a {
   color: #938048;
-  margin-top: 2em;
-  margin-bottom: -.3em;
+  text-decoration: none;
+}
+
+p a:hover {
+  color: #504a23;
+}
+
+/* Footer stuffs */
+footer {
+  background-color: #4E4923;
+  padding: 7%;
+  clear: both;
+}
+
+footer p {
+  color: #e7e7e5;
 }
