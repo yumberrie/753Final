@@ -141,6 +141,7 @@ footer p {
 .text-list {
   display: block;
   margin-left: 1em;
+  list-style: square;
 }
 
 .text-list-item {
