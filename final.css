@@ -179,6 +179,15 @@ p a:hover {
   color: #504a23;
 }
 
+/* Trying to JaveScript*/
+.poems {
+  display: none
+}
+
+function myFunction() {
+  document.getElementById("los-altos").style.display = "block";
+}
+
 /* Footer stuffs */
 footer {
   background-color: #4E4923;
