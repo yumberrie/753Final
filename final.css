@@ -152,6 +152,10 @@ footer p {
   padding: .3em;
 }
 
+.spaced-list:first-child {
+  padding-top: 0;
+}
+
 .text-list-item a {
   color: #938048;
 }
