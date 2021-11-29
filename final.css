@@ -149,7 +149,7 @@ footer p {
 }
 
 .spaced-list {
-  line-height: 1.9em;
+  padding: .3em;
 }
 
 .text-list-item a {
