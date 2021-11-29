@@ -94,6 +94,7 @@ h2.sub {
 h3 {
   font-family: "Verdana", sans-serif;
   font-variant: small-caps;
+  font-size: 1.17em;
   color: #938048;
   margin-top: 2em;
   margin-bottom: -.3em;
@@ -180,13 +181,25 @@ p a:hover {
 }
 
 /* Trying to JaveScript*/
-.poems {
-  display: none;
+.poem {
+  color: #261B0D;
+  cursor: pointer;
+  font-variant: normal;
+  padding: 10px;
+  width: 100%;
 }
 
-.poem-title {
-  cursor: pointer;
+.active, .poem:hover {
+  color: #787E49;
 }
+
+.poemtext {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
 
 /* Footer stuffs */
 footer {
