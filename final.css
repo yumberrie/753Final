@@ -181,7 +181,11 @@ p a:hover {
 
 /* Trying to JaveScript*/
 .poems {
-  display: none
+  display: none;
+}
+
+.poem-title {
+  cursor: pointer;
 }
 
 function myFunction() {
