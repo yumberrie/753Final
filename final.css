@@ -188,10 +188,6 @@ p a:hover {
   cursor: pointer;
 }
 
-function myFunction() {
-  document.getElementById("los-altos").style.display = "block";
-}
-
 /* Footer stuffs */
 footer {
   background-color: #4E4923;
