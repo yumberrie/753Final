@@ -148,15 +148,11 @@ footer p {
   color: black;
 }
 
-.text-item-list:first-child {
-  padding-top: 0;
-}
-
 .spaced-list {
   padding: 1em;
 }
 
-.spaced-list:first-child {
+.text-item-list:first-child {
   padding-top: 0;
 }
 
