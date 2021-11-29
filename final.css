@@ -148,6 +148,10 @@ footer p {
   color: black;
 }
 
+.text-item-list:first-child {
+  padding-top: 0;
+}
+
 .spaced-list {
   padding: .5em;
 }
