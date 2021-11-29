@@ -101,7 +101,7 @@ p {
 }
 
 strong {
-  color: #907f49;
+  color: #261B0D;
 }
 
 figure.sidephoto {
@@ -155,4 +155,5 @@ footer p {
 h3 {
   font-family: "Verdana", sans-serif;
   font-variant: small-caps;
+  color: #938048;
 }
