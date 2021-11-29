@@ -41,7 +41,7 @@ h1 {
 }
 
 #home-link:hover {
-  color: #1A180B;
+  color: #787E49;
   transition: color 1.2s;
 }
 
@@ -149,7 +149,7 @@ footer p {
 }
 
 .spaced-list {
-  padding: 1em;
+  padding: 2em;
 }
 
 .text-item-list:first-child {
