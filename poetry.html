@@ -4,7 +4,22 @@
     <title>Zoe May Meyer</title>
     <link rel="stylesheet" href="final.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Special Elite&effect=outline">
-    <script src="final.js"></script>
+    <script>
+        var acc = document.getElementsByClassName("poem");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var poemtext = this.nextElementSibling;
+            if (poemtext.style.maxHeight) {
+              poemtext.style.maxHeight = null;
+            } else {
+              poemtext.style.maxHeight = poemtext.scrollHeight + "px";
+            }
+          });
+        }
+    </script>
   </head>
   <body>
     <article>
@@ -27,7 +42,7 @@
         <p>To test it, here are some poems I wrote for college classes.</p>
 
         <h3 type="button" class="poem">Los Altos</h3>
-  <div class="poemtext" id="los-altos">
+          <div class="poemtext" id="los-altos">
     <p>
       It’s after the fog rolls back, over<br>
       foot hills that to me could be mountains:<br>
@@ -46,8 +61,8 @@
     </p>
   </div>
 
-<h3 type="button" class="poem">Capsule</h3>
-  <div class="poemtext" id="capsule">
+        <h3 type="button" class="poem">Capsule</h3>
+          <div class="poemtext" id="capsule">
     <p>
       Ginkgo tracks, packages of past. I know you<br>
       are special.</p>
@@ -67,36 +82,36 @@
     </p>
   </div>
 
-<h3 type="button" class="poem">The sister in white, fellow</h3>
-  <div class="poemtext" id="sister">
-    <p>
-      The sister in white, fellow<br>
-      white. She speaks words from paper<br>
-      we’re told we need to read. Words<br>
-      that stain us into an us, drag
-    </p>
-    <p>
-      the her and me down<br>
-      to earthy centers, held tight<br>
-      and entombed, to turn into<br>
-      rich rots. The flower may
-    </p>
-    <p>
-      grow from these hearts,<br>
-      but the hearts will lose<br>
-      themselves, decompose. For the sister,<br>
-      this is smiling. I turn
-    </p>
-    <p>
-      towards window, past<br>
-      tree to clouds, and the words<br>
-      sit like the crows. Dark shadows,<br>
-      pressing and loud. Pressing and loud.
-    </p>
-  </div>
+        <h3 type="button" class="poem">The sister in white, fellow</h3>
+          <div class="poemtext" id="sister">
+            <p>
+              The sister in white, fellow<br>
+              white. She speaks words from paper<br>
+              we’re told we need to read. Words<br>
+              that stain us into an us, drag
+            </p>
+            <p>
+              the her and me down<br>
+              to earthy centers, held tight<br>
+              and entombed, to turn into<br>
+              rich rots. The flower may
+            </p>
+            <p>
+              grow from these hearts,<br>
+              but the hearts will lose<br>
+              themselves, decompose. For the sister,<br>
+              this is smiling. I turn
+            </p>
+            <p>
+              towards window, past<br>
+              tree to clouds, and the words<br>
+              sit like the crows. Dark shadows,<br>
+              pressing and loud. Pressing and loud.
+            </p>
+          </div>
 
-<h3 type="button" class="poem">Pomme</h3>
-  <div class="poemtext" id="pomme">
+        <h3 type="button" class="poem">Pomme</h3>
+          <div class="poemtext" id="pomme">
     <p>
       Peel the apple, skin<br>
       that tears like paper - dead<br>
