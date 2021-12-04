@@ -197,6 +197,11 @@ footer p {
   color: #e7e7e5;
 }
 
+footer strong {
+  color: white;
+  font-size: 1.2em;
+}
+
 #leftfooter {
   float: left;
 }
