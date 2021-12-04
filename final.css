@@ -119,6 +119,10 @@ strong {
   color: #261B0D;
 }
 
+.poemtext {
+  margin-left: 2em;
+}
+
 figure.sidephoto {
   float: right;
   display: block;
