@@ -144,10 +144,6 @@ figcaption {
   text-align: center;
 }
 
-#rightfooter img {
-  max-width: 100px;
-}
-
 /* Lists */
 .text-list {
   display: block;
@@ -194,8 +190,22 @@ footer {
   background-color: #4E4923;
   padding: 7%;
   clear: both;
+  display: block;
 }
 
 footer p {
   color: #e7e7e5;
+}
+
+#leftfooter {
+  float: left;
+}
+
+#rightfoooter {
+  float: right;
+}
+
+#rightfooter img {
+  max-width: 50px;
+  padding: 20px;
 }
