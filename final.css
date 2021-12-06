@@ -199,7 +199,7 @@ p a:hover {
 /* Footer stuffs */
 footer {
   background-color: #4E4923;
-  padding: 7%;
+  padding: 10%;
   clear: both;
   display: block;
 }
@@ -224,7 +224,6 @@ footer a:hover {
 .column {
   float: left;
   width: 33.33%;
-  padding-bottom: 7%;
   margin: 0;
 }
 
