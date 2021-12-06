@@ -221,19 +221,18 @@ footer a:hover {
   color: #E7E6E3;
 }
 
-#leftfooter {
+.column {
   float: left;
+  width: 33.33%;
 }
 
-#middlefooter {
-  float: left;
-}
-
-#rightfoooter {
-  float: right;
-}
-
-#rightfooter img {
+.column img {
   max-width: 50px;
   padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
