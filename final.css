@@ -224,6 +224,7 @@ footer a:hover {
 .column {
   float: left;
   width: 33.33%;
+  margin: 10em;
 }
 
 .column img {
