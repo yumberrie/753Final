@@ -200,8 +200,11 @@ p a:hover {
 footer {
   background-color: #4E4923;
   padding: 10%;
+  margin: 0;
   clear: both;
-  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer p {
@@ -222,19 +225,17 @@ footer a:hover {
 }
 
 .column {
-  background-color: #4E4923;
-  float: left;
-  width: 33.33%;
-  margin: 0;
+
 }
 
 .column img {
   max-width: 50px;
-  padding: 20px;
+  padding: 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .column {
     width: 100%;
+    flex-wrap: wrap;
   }
 }
