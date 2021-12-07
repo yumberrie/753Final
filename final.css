@@ -83,9 +83,9 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background-color: #A9AD8B;
+  background-color: #D6B280;
   border-radius: 1em;
-  color: #4E4923;
+  color: #4F2914;
 }
 
 @media screen and (max-width: 600px) {
