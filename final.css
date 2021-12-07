@@ -88,7 +88,7 @@ header nav ul li a:hover {
   color: #4E4923;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   header nav ul li {
     font-size: .97em;
   }
