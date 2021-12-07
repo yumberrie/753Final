@@ -235,7 +235,10 @@ footer a:hover {
 }
 
 .column {
-
+  background-color: #4E4923;
+  float: left;
+  width: 33.33%;
+  margin: 0;
 }
 
 .column img {
