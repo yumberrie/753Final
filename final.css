@@ -83,9 +83,9 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background-color: #D6B280;
+  background-color: #B7B970;
   border-radius: 1em;
-  color: #4F2914;
+  color: #4B3A32;
 }
 
 @media screen and (max-width: 600px) {
@@ -123,7 +123,7 @@ h3 {
 /* Body stuffs */
 .main-container {
   margin: 10%;
-  margin-top: 3%;
+  margin-top: 5%;
   margin-bottom: 14%;
 }
 
