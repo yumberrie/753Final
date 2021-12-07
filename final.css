@@ -88,6 +88,13 @@ header nav ul li a:hover {
   color: #4E4923;
 }
 
+@media screen and (max-width: 400px) {
+  header nav ul li {
+    padding: 15px;
+    font-size: .97em;
+  }
+}
+
 h2 {
   text-align: center;
   font-family: "Special Elite", sans-serif;
